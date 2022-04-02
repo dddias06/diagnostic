@@ -138,13 +138,13 @@ while run:
           run = False
       elif e.type == KEYDOWN:
           if e.key == K_LEFT:
-              packman.x_speed = -5
+              packman.x_speed = -6
           elif e.key == K_RIGHT:
-              packman.x_speed = 5
+              packman.x_speed = 6
           elif e.key == K_UP:
-              packman.y_speed = -5
+              packman.y_speed = -6
           elif e.key == K_DOWN:
-              packman.y_speed = 5
+              packman.y_speed = 6
           elif e.key == K_SPACE:
              packman.fire()
  
